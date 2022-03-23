@@ -148,6 +148,10 @@
 @media (min-width: 300px) and (max-width: 599px) {
     body{
         background-size: cover;
+        color: black;
+    }
+    html{
+        background-color: black;
     }
     .container{
         width: 300px;
@@ -167,8 +171,9 @@
         width: 200px;
     }
     .header-call{
+        position: fixed;
+        bottom: 0;
         text-align: center;
-        width: 300px;
         margin: 0 auto;
         padding-top: 20px;
         padding-left: 10px;
@@ -177,23 +182,38 @@
         flex-direction: column;
     }
     .header-menu{
-        width: 250px;
+        width: calc(100% - 20px);
         padding-top: 5px;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 5px;
         margin: 0 auto;
         font-size: 25px;
-        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: unset;
+    }
+    .header-menu__left-logo__image{
+        padding-left: 10px;
+        width: 100px;
+    }
+    .header-menu__right{
+        color: grey;
     }
     .header-call__left-link{
+        color: black;
         width: 300px;
         padding-top: 10px;
         padding-bottom: 10px;
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
+        border-radius: 15px;
+        background-color: rgba(255,255,255, 0.1);
     }
     .header-call__left-link-tg{
+        color: black;
         width: 300px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -201,14 +221,19 @@
         margin-top: 10px;
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
+        border-radius: 15px;
+        background-color: rgba(255,255,255, 0.1);
     }
     .header-call__left-link-map{
+        color: black;
         width: 300px;
         margin-top: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
+        border-radius: 15px;
+        background-color: rgba(255,255,255, 0.1);
     }
     .header-menu__left-logo{
         margin: 0;
@@ -216,6 +241,7 @@
     .header-menu__list{
         margin: 0;
         padding-top: 20px;
+        justify-content: space-around;
         padding-bottom: 20px;
     }
     .header-menu__right{
