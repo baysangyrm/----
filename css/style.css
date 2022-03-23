@@ -1,7 +1,11 @@
 *{
     box-sizing: border-box;
-    font-family: 'Comic Sans MS';
-    font-style: normal;
+    font-family: 'WebFont';
+    font-style: bold;
+}
+@font-face {
+    font-family: WebFont;
+    src: url("../fonts/base.ttf") format("ttf");
 }
 .container{
     width: 1110px;
