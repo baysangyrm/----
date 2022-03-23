@@ -46,12 +46,21 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #6C757D;
     margin-right: 100px;
     margin-left: 100px;
     position: fixed;
     z-index: 1;
-    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);;
+    left: 50px;
+    bottom: 20px;
+    right: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+}
+.header-menu__left-logo{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
 }
 .header-menu__right{
     padding-left: 500px;
@@ -65,5 +74,16 @@ a{
     padding-right: 30px;
 }
 .header-menu__list-item__link{
-    color: #6C757D;
+    color: white;
 }
+.info-company{
+    padding-top: 300px;
+    padding-bottom: 595px;
+    background-color: #964b00;
+    background-image: url('../img/info/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-company__title{
+    text-align: center;
