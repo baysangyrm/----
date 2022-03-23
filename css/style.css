@@ -55,7 +55,7 @@ a{
     margin-left: 100px;
     position: fixed;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.25);;
+    background-color: rgba(255,255,255, 0.3);
     left: 50px;
     bottom: 20px;
     right: 50px;
@@ -63,7 +63,7 @@ a{
     border-radius: 30px;
 }
 .header-menu__left-logo{
-    color: white;
+    color: black;
     font-size: 32px;
     text-decoration: none;
 }
@@ -79,7 +79,7 @@ a{
     padding-right: 30px;
 }
 .header-menu__list-item__link{
-    color: white;
+    color: black;
 }
 .info-company{
     padding-top: 250px;
@@ -91,20 +91,22 @@ a{
     background-repeat: no-repeat;
 }
 .info-company__block{
-    border: 4px solid white;
+    border: 4px solid black;
     margin: 0 auto;
     width: 555px;
     padding: 20px 15px 20px 15px;
+    background-color: rgba(255,255,255, 0.3);
+    box-shadow: 3px 3px 3px  rgba(255,255,255, 0.3);;
 }
 .info-company__title{
     text-align: center;
     font-size: 60px;
-    color: azure;
+    color: black;
     width: 500px;
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 20px;
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid black;
 }
 .info-company__description{
     padding-top: 70px;
@@ -113,5 +115,5 @@ a{
     width: 400px;
     margin: 0 auto;
     text-align: center;
-    color: azure;
+    color: black;
 }
