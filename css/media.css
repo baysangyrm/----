@@ -204,16 +204,18 @@
     }
     .header-call__left-link{
         color: black;
+        font-size: large;
         width: 300px;
         padding-top: 10px;
         padding-bottom: 10px;
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
         border-radius: 15px;
-        background-color: rgba(255,255,255, 0.1);
+        background-color: rgba(255,255,255, 0.3);
     }
     .header-call__left-link-tg{
         color: black;
+        font-size: large;
         width: 300px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -222,10 +224,11 @@
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
         border-radius: 15px;
-        background-color: rgba(255,255,255, 0.1);
+        background-color: rgba(255,255,255, 0.3);
     }
     .header-call__left-link-map{
         color: black;
+        font-size: large;
         width: 300px;
         margin-top: 10px;
         padding-top: 10px;
@@ -233,7 +236,7 @@
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
         border-radius: 15px;
-        background-color: rgba(255,255,255, 0.1);
+        background-color: rgba(255,255,255, 0.3);
     }
     .header-menu__left-logo{
         margin: 0;
