@@ -29,6 +29,7 @@ a{
     color: #6C757D;
     margin: 0;
     padding-right: 5px;
+    font-size: bold;
 }
 .header-call__left-link:hover{
     color: rgba(255, 255, 255, 0.4);
@@ -37,12 +38,14 @@ a{
     margin: 0;
     align-items: center;
     color: #6C757D;
+    font-size: bold;
     padding-right: 5px;
 }
 .header-call__left-link-tg:hover{
     color: rgba(255, 255, 255, 0.4);
 }
 .header-call__left-link-map{
+    font-size: bold;
     padding-right: 5px;
     color: #6C757D;
     margin: 0; 
