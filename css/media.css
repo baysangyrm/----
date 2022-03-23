@@ -1,0 +1,76 @@
+@media (min-width: 1511px) and (max-width: 4000px) {
+    body{
+        background-size: cover;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1510px) {
+    .container{
+        width: 900px;
+    }
+    .header-call{
+        width: 900px;
+    }
+}
+@media (min-width: 1150px) and (max-width: 1199px) {
+    body{
+        background-size: cover;
+    }
+    .container{
+        width: 900px;
+    }
+    .header-call{
+        text-align: center;
+        width: 900px;
+    }
+    .header-menu{
+        width: 900px;
+        padding: 20px;
+    }
+}
+@media (min-width: 850px) and (max-width: 1149px) {
+    body{
+        background-size: cover;
+    }
+    .container{
+        width: 500px;
+    }
+    .info-company{
+        padding-top: 150px;
+    }
+    .info-company__block{
+        width: 400px;
+    }
+    .info-company__title{
+        width: 300px;
+    }
+    .info-company__description{
+        width: 300px;
+    }
+    .header-call{
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    .header-menu{
+        width: 750px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    .header-call__left-link{
+        padding-right: 20px;
+    }
+    .header-call__left-link-map{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header-menu__right{
+        padding-left: 200px;
+    }
+}
