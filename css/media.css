@@ -115,12 +115,14 @@
         font-size: 25px;
     }
     .header-call__left-link{
+        width: 400px;
         padding-top: 10px;
         padding-bottom: 10px;
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
     }
     .header-call__left-link-tg{
+        width: 400px;
         padding-top: 10px;
         padding-bottom: 10px;
         display: block;
@@ -129,6 +131,7 @@
         border-bottom: 2px solid grey;
     }
     .header-call__left-link-map{
+        width: 400px;
         margin-top: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -137,6 +140,87 @@
     }
     .header-menu__right{
         padding-left: 100px;
+    }
+    .header-menu__list-item__link{
+        font-size: 20px;
+    }
+}
+@media (min-width: 300px) and (max-width: 599px) {
+    body{
+        background-size: cover;
+    }
+    .container{
+        width: 300px;
+    }
+    .info-company{
+        padding-top: 100px;
+    }
+    .info-company__block{
+        width: 300px;
+    }
+    .info-company__title{
+        width: 230px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .info-company__description{
+        width: 200px;
+    }
+    .header-call{
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-menu{
+        width: 250px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+        font-size: 25px;
+        display: block;
+    }
+    .header-call__left-link{
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+    }
+    .header-call__left-link-tg{
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        margin-top: 10px;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+    }
+    .header-call__left-link-map{
+        width: 300px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+    }
+    .header-menu__left-logo{
+        margin: 0;
+    }
+    .header-menu__list{
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header-menu__right{
+        padding-left: 0px;
+        margin: 0 auto;
     }
     .header-menu__list-item__link{
         font-size: 20px;
